@@ -10,10 +10,11 @@
 		051FD43467FEBFFB419414E1 /* libPods-TestUploadPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C2B7423C9E3ED344F68E49 /* libPods-TestUploadPod.a */; };
 		B99E7E181E5FDA3C007E11A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E7E171E5FDA3C007E11A3 /* main.m */; };
 		B99E7E1B1E5FDA3C007E11A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E7E1A1E5FDA3C007E11A3 /* AppDelegate.m */; };
-		B99E7E1E1E5FDA3C007E11A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E7E1D1E5FDA3C007E11A3 /* ViewController.m */; };
 		B99E7E211E5FDA3C007E11A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99E7E1F1E5FDA3C007E11A3 /* Main.storyboard */; };
 		B99E7E231E5FDA3C007E11A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99E7E221E5FDA3C007E11A3 /* Assets.xcassets */; };
 		B99E7E261E5FDA3C007E11A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99E7E241E5FDA3C007E11A3 /* LaunchScreen.storyboard */; };
+		B99E7E301E6006E1007E11A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E7E2F1E6006E1007E11A3 /* ViewController.m */; };
+		B99E7E341E60076D007E11A3 /* RWZXXXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E7E331E60076D007E11A3 /* RWZXXXViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +25,14 @@
 		B99E7E171E5FDA3C007E11A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B99E7E191E5FDA3C007E11A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B99E7E1A1E5FDA3C007E11A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B99E7E1C1E5FDA3C007E11A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B99E7E1D1E5FDA3C007E11A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B99E7E201E5FDA3C007E11A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B99E7E221E5FDA3C007E11A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B99E7E251E5FDA3C007E11A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B99E7E271E5FDA3C007E11A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99E7E2E1E6006E1007E11A3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B99E7E2F1E6006E1007E11A3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B99E7E321E60076D007E11A3 /* RWZXXXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWZXXXViewController.h; sourceTree = "<group>"; };
+		B99E7E331E60076D007E11A3 /* RWZXXXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWZXXXViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,7 @@
 		B99E7E0A1E5FDA3C007E11A3 = {
 			isa = PBXGroup;
 			children = (
+				B99E7E311E600753007E11A3 /* PodLibFile */,
 				B99E7E151E5FDA3C007E11A3 /* TestUploadPod */,
 				B99E7E141E5FDA3C007E11A3 /* Products */,
 				DF1B54FADDBBD7BE1E62758B /* Pods */,
@@ -73,10 +77,9 @@
 		B99E7E151E5FDA3C007E11A3 /* TestUploadPod */ = {
 			isa = PBXGroup;
 			children = (
+				B99E7E2D1E6006E1007E11A3 /* Classes */,
 				B99E7E191E5FDA3C007E11A3 /* AppDelegate.h */,
 				B99E7E1A1E5FDA3C007E11A3 /* AppDelegate.m */,
-				B99E7E1C1E5FDA3C007E11A3 /* ViewController.h */,
-				B99E7E1D1E5FDA3C007E11A3 /* ViewController.m */,
 				B99E7E1F1E5FDA3C007E11A3 /* Main.storyboard */,
 				B99E7E221E5FDA3C007E11A3 /* Assets.xcassets */,
 				B99E7E241E5FDA3C007E11A3 /* LaunchScreen.storyboard */,
@@ -92,6 +95,24 @@
 				B99E7E171E5FDA3C007E11A3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B99E7E2D1E6006E1007E11A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B99E7E2E1E6006E1007E11A3 /* ViewController.h */,
+				B99E7E2F1E6006E1007E11A3 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B99E7E311E600753007E11A3 /* PodLibFile */ = {
+			isa = PBXGroup;
+			children = (
+				B99E7E321E60076D007E11A3 /* RWZXXXViewController.h */,
+				B99E7E331E60076D007E11A3 /* RWZXXXViewController.m */,
+			);
+			path = PodLibFile;
 			sourceTree = "<group>";
 		};
 		DF1B54FADDBBD7BE1E62758B /* Pods */ = {
@@ -225,9 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B99E7E1E1E5FDA3C007E11A3 /* ViewController.m in Sources */,
+				B99E7E301E6006E1007E11A3 /* ViewController.m in Sources */,
 				B99E7E1B1E5FDA3C007E11A3 /* AppDelegate.m in Sources */,
 				B99E7E181E5FDA3C007E11A3 /* main.m in Sources */,
+				B99E7E341E60076D007E11A3 /* RWZXXXViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
