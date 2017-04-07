@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
  s.name         = "TestUploadPod"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.summary      = "TestUploadPod for ios."
   s.homepage     = "https://github.com/lxy-xiaoyue/TestUploadPod"
   s.license      = "MIT"
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/lxy-xiaoyue/TestUploadPod.git", :tag => s.version.to_s }
   # s.source_files = "TestUploadPod", "TestUploadPod/TestUploadPod/**/*.{h,m}"
-  s.source_files = "TestUploadPod/*.{h,m}"
+  s.source_files = "TestUploadPod/*"
 
   # s.dependency 'AFNetworking', '~> 3.1.0'
 
