@@ -14,6 +14,9 @@
 		B92833A61E9793960034C0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92833A51E9793960034C0B0 /* Assets.xcassets */; };
 		B92833A91E9793960034C0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92833A71E9793960034C0B0 /* LaunchScreen.storyboard */; };
 		B92833B71E9795160034C0B0 /* TestUploadPodController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92833B61E9795160034C0B0 /* TestUploadPodController.m */; };
+		B92833B91E979E9C0034C0B0 /* TestUploadPod.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92833B81E979E9C0034C0B0 /* TestUploadPod.xcassets */; };
+		B92833BD1E979ED20034C0B0 /* TestImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92833BB1E979ED20034C0B0 /* TestImageViewController.m */; };
+		B92833BE1E979ED20034C0B0 /* TestImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92833BC1E979ED20034C0B0 /* TestImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		B92833AA1E9793960034C0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B92833B51E9795160034C0B0 /* TestUploadPodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUploadPodController.h; sourceTree = "<group>"; };
 		B92833B61E9795160034C0B0 /* TestUploadPodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUploadPodController.m; sourceTree = "<group>"; };
+		B92833B81E979E9C0034C0B0 /* TestUploadPod.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TestUploadPod.xcassets; sourceTree = "<group>"; };
+		B92833BA1E979ED20034C0B0 /* TestImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestImageViewController.h; sourceTree = "<group>"; };
+		B92833BB1E979ED20034C0B0 /* TestImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestImageViewController.m; sourceTree = "<group>"; };
+		B92833BC1E979ED20034C0B0 /* TestImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +95,10 @@
 			children = (
 				B92833B51E9795160034C0B0 /* TestUploadPodController.h */,
 				B92833B61E9795160034C0B0 /* TestUploadPodController.m */,
+				B92833BA1E979ED20034C0B0 /* TestImageViewController.h */,
+				B92833BB1E979ED20034C0B0 /* TestImageViewController.m */,
+				B92833BC1E979ED20034C0B0 /* TestImageViewController.xib */,
+				B92833B81E979E9C0034C0B0 /* TestUploadPod.xcassets */,
 			);
 			path = TestUploadPod;
 			sourceTree = "<group>";
@@ -152,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B92833A91E9793960034C0B0 /* LaunchScreen.storyboard in Resources */,
+				B92833BE1E979ED20034C0B0 /* TestImageViewController.xib in Resources */,
 				B92833A61E9793960034C0B0 /* Assets.xcassets in Resources */,
+				B92833B91E979E9C0034C0B0 /* TestUploadPod.xcassets in Resources */,
 				B92833A41E9793960034C0B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +180,7 @@
 				B92833B71E9795160034C0B0 /* TestUploadPodController.m in Sources */,
 				B92833A11E9793960034C0B0 /* ViewController.m in Sources */,
 				B928339E1E9793960034C0B0 /* AppDelegate.m in Sources */,
+				B92833BD1E979ED20034C0B0 /* TestImageViewController.m in Sources */,
 				B928339B1E9793960034C0B0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
