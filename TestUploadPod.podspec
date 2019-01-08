@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
- s.name         = "TestUploadPod"
+  s.name         = "TestUploadPod"
   s.version      = "1.0.3"
   s.summary      = "TestUploadPod for ios."
   s.homepage     = "https://github.com/lxy-xiaoyue/TestUploadPod"
